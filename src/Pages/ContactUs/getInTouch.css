@@ -1,0 +1,6 @@
+.contact_container{
+  background-image: url('../../assets/contactImage.jpg');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 800px;
+}

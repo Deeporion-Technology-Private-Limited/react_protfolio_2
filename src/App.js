@@ -1,5 +1,4 @@
 import Index from "./routes/Index";
-import "./scss/index.scss";
 
 function App() {
   return (
