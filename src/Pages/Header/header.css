@@ -1,0 +1,64 @@
+.header_container {
+  width: 100%;
+  height: 5.188rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  top: 0rem;
+  left: 0;
+  z-index: 99;
+  font-size: 18px;
+}
+
+.logo_heading {
+  color: #F9FAFB;
+  text-align: center;
+  font-family: "Jost";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.flex_items{
+  display: flex;
+  width: 100%;
+  padding: 0 2px ;
+}
+
+.flex{
+  display: flex;
+  width: 100%;
+}
+
+.justify_center{
+  justify-content: center;
+}
+.items_center{
+  align-items: center;
+}
+
+.flex_column{
+  flex-direction: column;
+}
+
+.justify_around{
+  justify-content: space-around;
+}
+
+.basis_half{
+  width: 50%;
+}
+
+.fit_content{
+  width: fit-content;
+  margin: 0 1.25rem ;
+}
+
+.justify_start{
+  justify-content: start;
+}
+
