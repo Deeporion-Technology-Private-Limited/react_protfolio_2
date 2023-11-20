@@ -6,6 +6,7 @@ import Quote from "../Quote/Quote";
 import GetInTouch from "../ContactUs/GetInTouch";
 import HeroImage from "../HeroImage/HeroImage";
 import Categories from "../Categories/Categories";
+import Philosphy from "../philosphy_section/Philosphy";
 
 export default function Layouts() {
   return (
@@ -13,6 +14,7 @@ export default function Layouts() {
       <Header />
       <HeroImage/>
       <Categories/>
+      <Philosphy/>
       <Quote />
       <GetInTouch/>
       <Footer />

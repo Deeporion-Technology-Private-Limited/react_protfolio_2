@@ -34,14 +34,14 @@
   width: 100%;
 }
 
-.justify_center{
+.justify-center{
   justify-content: center;
 }
-.items_center{
+.items-center{
   align-items: center;
 }
 
-.flex_column{
+.flex-column{
   display:flex;
   flex-direction: column;
 }
@@ -59,7 +59,7 @@
   margin: 0 1.25rem ;
 }
 
-.justify_start{
+.justify-start{
   justify-content: start;
 }
 

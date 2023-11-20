@@ -15,6 +15,16 @@
   height: 100%;
   object-fit: cover;
 }
+.w_fit{
+  width: fit-content;
+}
+
+.grid_wrapper {
+  margin: 3rem 0;
+}
+.width_84{
+  width: 84%;
+}
 
 .centered-text {
   position: absolute;
@@ -24,4 +34,30 @@
   text-align: center;
   color: white;
   font-size: 1.5em;
+}
+
+.feature_work{
+  color: #2B2B2B;
+  text-align: center;
+  /* Heading */
+  font-family: "Raleway";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+}
+
+.best_categories{
+  color: #2B2B2B;
+  text-align: center;
+  /* Sub Heading */
+  font-family: "Outfit";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px; /* 156.25% */
+}
+
+.categories_container{
+  margin: 7rem 0;
 }
