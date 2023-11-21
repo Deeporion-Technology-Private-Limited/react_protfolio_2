@@ -7,16 +7,9 @@
   background-color: #0d1730;
 }
 
-h5,
-{
-  color: white;
-}
 .footer_grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   width: 70%;
-}
-p{
-  margin: 0 !important;
 }

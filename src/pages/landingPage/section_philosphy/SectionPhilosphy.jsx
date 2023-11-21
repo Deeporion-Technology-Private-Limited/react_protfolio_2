@@ -1,15 +1,15 @@
 import React from "react";
 import PhilosphyHeading from "./components/PhilosphyHeading";
 import PhilosphySectionContainer from "./containers/PhilosphySectionContainer";
-import PhilosphyIntro from "./components/PhilsphyIntro"
+import PhilosphyIntro from "./components/PhilsphyIntro";
 import "./philosphy.css";
 
-export default function Philosphy() {
+export default function SectionPhilosphy() {
   return (
     <PhilosphySectionContainer>
       <div className="flex-column items-center justify-start psContainer_width">
-      <PhilosphyHeading />
-      <PhilosphyIntro/>
+        <PhilosphyHeading />
+        <PhilosphyIntro />
       </div>
     </PhilosphySectionContainer>
   );

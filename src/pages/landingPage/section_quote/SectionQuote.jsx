@@ -1,7 +1,7 @@
 import React from "react";
 import "./quote.css"
 
-export default function Quote() {
+export default function SectionQuote() {
   return (
     <div className="quote_container flex_center">
       <div className="text_width">

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import "./heroImage.css";
-import Image00 from "../../assets/carousel_image00.jpg";
-import Image01 from "../../assets/carousel_image01.jpg";
-import Image02 from "../../assets/carousel_image02.jpg";
-import Image03 from "../../assets/carousel_image03.jpg";
-import Image04 from "../../assets/carousel_image04.jpg";
+import Image00 from "../../../assets/Images/carousel_image00.jpg";
+import Image01 from "../../../assets/Images/carousel_image01.jpg";
+import Image02 from "../../../assets/Images/carousel_image02.jpg";
+import Image03 from "../../../assets/Images/carousel_image03.jpg";
+import Image04 from "../../../assets/Images/carousel_image04.jpg";
+import "./SectionCarousel.css"
 
-export default function HeroImage() {
+export default function ScetionCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const images = [Image00, Image01, Image02, Image03, Image04];
 
@@ -22,7 +22,7 @@ export default function HeroImage() {
   }, [currentSlide]);
 
   return (
-    <div className="carousel ">
+    <div className="carousel_container">
       <div className="hero_image_container">
         {images.map((image, index) => (
           <img

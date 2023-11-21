@@ -1,10 +1,10 @@
 import React from 'react'
-import natureImage from "../../../assets/image_5.jpg"
-import peopleImage from "../../../assets/image_4.jpg"
-import manMadeImage from "../../../assets/image_3.jpg"
-import fashionImage from "../../../assets/image_2.jpg"
-import abstractImage from "../../../assets/image_6.jpg"
-import blackWhiteImage from "../../../assets/image_1.jpg"
+import natureImage from "../../../../assets/Images/image_5.jpg"
+import peopleImage from "../../../../assets/Images/image_4.jpg"
+import manMadeImage from "../../../../assets/Images/image_3.jpg"
+import fashionImage from "../../../../assets/Images/image_2.jpg"
+import abstractImage from "../../../../assets/Images/image_6.jpg"
+import blackWhiteImage from "../../../../assets/Images/image_1.jpg"
 import "../Categories.css"
 
 export default function Categories() {

@@ -1,19 +1,14 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Footer from "../Pages/Footer/Footer";
-import GetInTouch from "../Pages/ContactUs/index"
-import Quote from "../Pages/Quote/Quote";
-import Layout from "../Pages/Layout/Layouts"
+import LandingPage from "../pages/landingPage/LandingPage";
 
 export default function Index() {
   return (
     <Routes>
-        <Route path="/" element={<Footer/>}></Route>
-        <Route path="/get" element={<GetInTouch/>}></Route>
-        <Route path="/quote" element={<Quote/>}></Route>
-        <Route path="/layout" element={<Layout/>}></Route>
-
-
+        <Route path="/" element={<LandingPage/>}></Route>
+        {/* <Route path="/about" element={<GetInTouch/>}></Route>
+        <Route path="/contactus" element={<Quote/>}></Route>
+        <Route path="/blogs" element={<Layout/>}></Route> */}
       </Routes>
   );
 }

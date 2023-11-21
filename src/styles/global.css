@@ -1,0 +1,76 @@
+.h-full{
+  height: 100%;
+}
+.w-full{
+  width: 100%;
+}
+
+/* Flex Clases */
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.self-center {
+  align-self: center;
+}
+
+/* Grid Classes */
+.grid {
+  display: grid;
+}
+
+.grid-column {
+  grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
+}
+
+.grid-row {
+  grid-template-rows: repeat(auto-fill, minmax(0, 1fr));
+}
+
+.grid-gap {
+  gap: 1rem; 
+}

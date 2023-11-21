@@ -49,21 +49,7 @@
   padding-right: 1rem;
 }
 
-.items-start {
-  align-items: start;
-}
-.justify-end {
-  justify-content: end;
-}
-items-end {
-  align-items: end;
-}
-.justify-between {
-  justify-content: space-between;
-}
-.h-full {
-  height: 100%;
-}
+
 .psContainer_width {
   width: 73.063rem;
 }

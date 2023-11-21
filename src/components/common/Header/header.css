@@ -23,33 +23,6 @@
   line-height: 60px;
 }
 
-.flex_items{
-  display: flex;
-  width: 100%;
-  padding: 0 2px ;
-}
-
-.flex{
-  display: flex;
-  width: 100%;
-}
-
-.justify-center{
-  justify-content: center;
-}
-.items-center{
-  align-items: center;
-}
-
-.flex-column{
-  display:flex;
-  flex-direction: column;
-}
-
-.justify_around{
-  justify-content: space-around;
-}
-
 .basis_half{
   width: 50%;
 }
@@ -57,9 +30,5 @@
 .fit_content{
   width: fit-content;
   margin: 0 1.25rem ;
-}
-
-.justify-start{
-  justify-content: start;
 }
 
