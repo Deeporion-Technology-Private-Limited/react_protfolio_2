@@ -5,7 +5,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* border-bottom: 1px solid #fff; */
   position: fixed;
   top: 0rem;
   left: 0;
@@ -14,21 +13,26 @@
 }
 
 .logo_heading {
-  color: #F9FAFB;
+  color: #f9fafb;
   text-align: center;
-  font-family: "Jost";
+  font-family: "Jost",sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 600;
   line-height: 60px;
 }
 
-.basis_half{
+.basis_half {
   width: 50%;
 }
 
-.fit_content{
-  width: fit-content;
-  margin: 0 1.25rem ;
+nav a {
+  color: #fff;
+  font-family: "Outfit",sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 18px;
+  margin: 0 1.25rem;
 }
-

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import FooterContainer from './Container/FooterContainer';
+import FooterContainer from './FooterContainer';
 import Blurb from './components/Blurb';
 import QuicklinkNames from './components/QuickLinks';
 import Blogs from './components/Blogs';

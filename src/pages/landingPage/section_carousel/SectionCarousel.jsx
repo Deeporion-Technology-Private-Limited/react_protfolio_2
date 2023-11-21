@@ -23,7 +23,7 @@ export default function ScetionCarousel() {
 
   return (
     <div className="carousel_container">
-      <div className="hero_image_container">
+      <div className="carousel_image_container">
         {images.map((image, index) => (
           <img
             key={index}
@@ -33,7 +33,7 @@ export default function ScetionCarousel() {
           />
         ))}
       </div>
-      <div className="hero_textContainer">
+      <div className="carousel_textContainer">
         <p className="flex items-center h-full">
           Hi, I am Tabea, I am a Photographer, I capture
         </p>

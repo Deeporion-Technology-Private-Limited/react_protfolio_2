@@ -2,6 +2,7 @@ import React from "react";
 import { BiChevronDown } from "react-icons/bi";
 import { Link } from "react-router-dom";
 import "./QuickLinks.css"
+import { commonContent } from "../../../../assets/content/commonContent";
 
 export default function QuicklinkNames() {
   const quickLinkNames = [
@@ -34,11 +35,11 @@ export default function QuicklinkNames() {
 
   return (
     <div className="List_container">
-      <h5>Quick Links</h5>
+      <h5>{commonContent.quickLinks}</h5>
       <nav>
         {quickLinkNames.map((links) => (
-          <div className=" flex_start" key={links.id}>
-            <BiChevronDown className="icon" />
+          <div className="flex items-center" key={links.id}>
+            <BiChevronDown className="arrow" />
             <Link to={links.to}>{links.linkName}</Link>
           </div>
         ))}

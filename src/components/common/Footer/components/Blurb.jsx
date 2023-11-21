@@ -2,36 +2,37 @@ import React from "react";
 import { BiLogoFacebook, BiLogoInstagram, BiLogoYoutube } from "react-icons/bi"
 import { FaXTwitter } from "react-icons/fa6"
 import "./Blurb.css"
+import { commonContent } from "../../../../assets/content/commonContent";
 
 export default function Blurb() {
   const iconNames = [
   {
     id: "1",
-    icon: <BiLogoFacebook />,
+    icon: <BiLogoFacebook className="icon_size" />,
   },
   {
     id: "2",
-    icon: <BiLogoInstagram />,
+    icon: <BiLogoInstagram className="icon_size" />,
   },
   {
     id: "3",
-    icon: <BiLogoYoutube />,
+    icon: <BiLogoYoutube className="icon_size" />,
   },
   {
     id: "4",
-    icon: <FaXTwitter />,
+    icon: <FaXTwitter className="icon_size" />,
   },
   ];
 
   return (
-    <div className="list_container">
-      <h5>Logo</h5>
-      <p>
+    <div className="w-full flex flex-column">
+      <h5 className="blurb_heading">{commonContent.logo}</h5>
+      <p className="blurb_text">
         Embark on a captivating visual journey with me, where each frame serves
         as a testament to the beauty inherent in both the world around us and
         within each individual.
       </p>
-      <div className="icon_container_flex">
+      <div className="flex items-center justify-start">
       {iconNames.map((item) => (
       <div key={item.id} className="icon-container">
         {item.icon}

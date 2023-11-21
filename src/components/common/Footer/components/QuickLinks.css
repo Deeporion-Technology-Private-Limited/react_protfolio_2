@@ -11,10 +11,10 @@
   justify-content: start;
   align-items: center;
 }
-.icons {
-  width: 18.409px !important;
-  height: 15.682px !important;
-  fill: white;
+.arrow {
+  width: 12.997px;
+  height: 12.997px;
+  transform: rotate(-90.012deg);
+  background: var(--secondary, #FE872E);
   flex-shrink: 0;
-  transform: rotate(90deg);
 }

@@ -13,3 +13,11 @@
   grid-gap: 10px;
   width: 70%;
 }
+
+.arrow {
+  width: 12.997px;
+  height: 12.997px;
+  transform: rotate(-90.012deg);
+  outline: var(--secondary, #FE872E);
+  flex-shrink: 0;
+}

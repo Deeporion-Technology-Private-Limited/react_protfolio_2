@@ -1,25 +1,26 @@
 .carousel_container {
   width: 100%;
+  height: 49.313rem !important;
+  display: flex;
   overflow: hidden;
   margin: 0 auto;
 }
 
-.hero_image_container {
+.carousel_image_container {
   width: 100%;
-  height: 49.313rem !important;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   object-fit: cover;
 }
-.hero_image_container img {
+.carousel_image_container img {
   width: 100%;
   height: 49.313rem;
   object-fit: cover;
 }
 
-.hero_textContainer {
+.carousel_textContainer {
   width: 51rem;
   height: 114px;
   color: #f9fafb;
@@ -32,7 +33,7 @@
   
 }
 
-.hero_textContainer p {
+.carousel_textContainer p {
   line-height: 60px !important;
   font-family: "Raleway";
   font-size: 50px;
