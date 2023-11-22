@@ -19,7 +19,7 @@ export default function ScetionCarousel() {
       setCurrentSlide((prev) => (prev === images.length - 1 ? 0 : prev + 1));
     }, 4000);
     return () => clearInterval(intervalId); // Cleanup the interval on component unmount
-  }, [currentSlide]);
+  }, [currentSlide, images.length]);
 
   return (
     <div className="carousel_container">

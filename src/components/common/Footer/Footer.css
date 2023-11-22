@@ -1,23 +1,113 @@
 .footer_container {
   height: 25.75rem;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #0d1730;
 }
 
-.footer_grid {
+.footer-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 2rem;
   width: 70%;
 }
 
+.footer-heading {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.footer-text {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
 .arrow {
-  width: 12.997px;
-  height: 12.997px;
-  transform: rotate(-90.012deg);
-  outline: var(--secondary, #FE872E);
+  width: 26.997px;
+  height: 26.997px;
+  fill: #fe872e;
   flex-shrink: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.rotate-90deg {
+  transform: rotate(-90.012deg);
+}
+
+.mail-icon {
+  width: 28px;
+  height: 28px;
+  fill: #fe872e;
+  flex-shrink: 0;
+}
+
+.email_cotainer {
+  width: 26.125rem;
+  height: 3rem;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
+
+.email_cotainer form {
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.email_cotainer input {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 4px 0 0 4px;
+  width: 100%;
+  border: none;
+}
+
+.email_cotainer button {
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 0 4px 4px 0;
+  width: 3rem;
+}
+
+.icon-container {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #fe872e;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.icon_size {
+  width: 18.545px;
+  height: 20.449px;
+  flex-shrink: 0;
+}
+
+.gap-18 {
+  gap: 18px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.link-margin{
+  margin:0 5px;
+}
+
+.ml-4{
+  padding-left: 4rem ;
 }

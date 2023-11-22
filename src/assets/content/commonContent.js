@@ -3,38 +3,12 @@
   blogs:"Blogs",
   contactUs:"Contact Us",
   home:"Home",
-  portfolio:"Portfolio",
   logo:"Logo",
+  newsletter:"Newsletter",
+  portfolio:"Portfolio",
   quickLinks:"Quick Links"
 }
 
-export const pageNavigation = [
-  {
-    id: "1",
-    to: "/home",
-    linkName: "Home",
-  },
-  {
-    id: "2",
-    to: "/home",
-    linkName: "Portfolio",
-  },
-  {
-    id: "3",
-    to: "/about",
-    linkName: "About Us",
-  },
-  {
-    id: "4",
-    to: "/services",
-    linkName: "Services",
-  },
-  {
-    id: "5",
-    to: "/contact",
-    linkName: "Contact Us",
-  },
-]
 
 
 const sectionHeadings = {

@@ -2,7 +2,9 @@ import React from "react";
 import HeaderContainer from "./HeaderContainer";
 import "./header.css";
 import { Link } from "react-router-dom";
-import {commonContent,pageNavigation} from "../../../assets/content/commonContent"
+import { commonContent } from "../../../assets/content/commonContent"
+import { pageNavigation } from "../../../assets/content/footerContent"
+
 
 export default function Header() {
   return (

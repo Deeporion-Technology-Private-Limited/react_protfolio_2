@@ -1,8 +1,11 @@
-.h-full{
+.h-full {
   height: 100%;
 }
-.w-full{
+.w-full {
   width: 100%;
+}
+.w-fit {
+  width: fit-content;
 }
 
 /* Flex Clases */
@@ -72,5 +75,26 @@
 }
 
 .grid-gap {
-  gap: 1rem; 
+  gap: 1rem;
+}
+
+/* text-sizes */
+.text-sm {
+  font-size: 12px;
+}
+
+.text-md {
+  font-size: 14px;
+}
+
+.text-base {
+  font-size: 16px;
+}
+
+.text-lg {
+  font-size: 18px;
+}
+
+.text-xl {
+  font-size: 20px;
 }
