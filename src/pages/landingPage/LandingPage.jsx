@@ -4,6 +4,8 @@ import ScetionCarousel from './section_carousel/SectionCarousel'
 import SectionCategories from './section_categories/SectionCategories'
 import SectionPhilosphy from './section_philosphy/SectionPhilosphy'
 import SectionQuote from './section_quote/SectionQuote'
+import SectionLatestWork from './section_latestWork/SectionLatestWork'
+import SectionContactUs from './section_contacts/SectionContactUs'
 
 
 export default function LandingPage() {
@@ -13,6 +15,8 @@ export default function LandingPage() {
       <SectionCategories/>
       <SectionPhilosphy/>
       <SectionQuote/>
+      <SectionLatestWork/>
+      <SectionContactUs/>
     </PageContainer>
   )
 }

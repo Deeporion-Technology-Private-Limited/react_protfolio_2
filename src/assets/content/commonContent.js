@@ -8,10 +8,3 @@
   portfolio:"Portfolio",
   quickLinks:"Quick Links"
 }
-
-
-
-const sectionHeadings = {
-  carousel:"Hi, I am Tabea, I am a Photographer, I capture",
-  
-}
