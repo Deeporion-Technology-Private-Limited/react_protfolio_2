@@ -22,7 +22,7 @@ export default function PhilsphyIntro() {
   };
 
   return (
-    <div className="flex justify-start intro-tab gap-30">
+    <div className="mt-5rem flex justify-start intro-tab gap-30">
       <div className="image-container flex ">
         <img className="" src={IntroImage} alt="girl_in_red" />
       </div>

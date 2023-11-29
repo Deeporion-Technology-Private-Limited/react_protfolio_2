@@ -9,7 +9,7 @@ export default function Categories() {
         {gridInfo.map((data) => (
           <div key={data.id} className="grid-element relative">
             <img className="" src={data.imageName} alt={data.imageName.replace(" ","_")} />
-            <div className="centered-text z-99">{data.title}</div>
+            <div className="centered-text image-heading z-99">{data.title}</div>
             <div className="hover-text w-full h-full flex justify-center items-end">
               <p className="text-translate">{data.info}</p>
             </div>
