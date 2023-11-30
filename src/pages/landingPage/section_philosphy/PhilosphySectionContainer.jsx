@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PhilosphySectionContainer(props) {
   return (
-    <div className="flex-column items-center justify-center pb_8 ">
+    <div className="w-fit h-fit flex-column items-center justify-center philosphy-container">
       {props.children}
     </div>
   );

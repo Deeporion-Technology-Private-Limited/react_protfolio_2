@@ -11,7 +11,7 @@
 .contact_text{
   color: #FFF;
   text-align: center;
-  font-family: "Raleway";
+  font-family: "Raleway",sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -28,7 +28,7 @@
 .author_text{
   color: #FFF;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway,sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 300;

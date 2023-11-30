@@ -1,13 +1,13 @@
 import React from 'react'
 
-export default function GridHeading() {
-  return (
-    <div className='flex_col justify-center items-center'>
-      <div className='flex_start'>
-        <p className='feature_work'>Featured Work</p>
+export default function GridHeading({heading,subheading}) {
+  return ( 
+    <div className='w-full flex flex-column justify-start items-center'>
+      <div className='w-full flex heading-translate'>
+        <h4 className='feature-work heading-translate'>{heading}</h4>
       </div>
-      <div className='flex_start'>
-        <p className='best_categories'>Explore some best categories</p>
+      <div className='w-full flex subheading-translate'>
+        <h5 className='best-categories'>{subheading}</h5>
       </div>  
     </div>
   )

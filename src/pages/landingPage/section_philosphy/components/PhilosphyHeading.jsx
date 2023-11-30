@@ -1,16 +1,17 @@
 import React from "react";
 import "../philosphy.css";
-export default function PhilosphyHeading() {
+
+
+export default function PhilosphyHeading({heading,subheading}) {
   return (
-    <div className="flex-column items-start justify-center psContainer_width pb_4">
-      <div className="flex items-center pb_2">
-        <p className="philosphy_heading">About my Photography Philosophy</p>
+    <div className="heading-container flex flex-column items-center justify-start">
+      <div className="heading-translate w-full flex items-center mp-0">
+        <h3 className="mp-0 philosphy-heading">{heading}</h3>
       </div>
-      <div className="flex items-center pt_8">
-        <p className="philosphy_blurb">
-          Join me on this visual journey, where every frame is a testament to
-          the beauty that exists in the world and in each of us.
-        </p>
+      <div className="subheading-translate flex items-center">
+        <h5 className="philosphy-blurb mp-0">
+          {subheading}
+        </h5>
       </div>
     </div>
   );
