@@ -7,6 +7,7 @@ import Blogs from "../pages/blogs/Blogs";
 import AuthGuard from "../components/common/AuthGaurd";
 import Page404 from "../components/common/Page404";
 import LayoutMain from "../layout/LayoutMain";
+import PortfolioCategories from "../pages/Portfolio/PortfolioCategories";
 
 export default function Index() {
   const unprotectedRoutes = [
@@ -32,6 +33,12 @@ export default function Index() {
       path: "/blogs",
       component: Blogs,
       name: "Blogs",
+    },
+
+    {
+      path: "/portfolio",
+      component: PortfolioCategories,
+      name: "Portfolio",
     },
 
     {

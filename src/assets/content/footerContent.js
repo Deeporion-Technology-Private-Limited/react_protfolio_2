@@ -14,27 +14,27 @@ export const footerText = {
 export const pageNavigation = [
   {
     id: "1",
-    to: "/home",
+    to: "/",
     linkName: "Home",
   },
   {
     id: "2",
-    to: "/home",
+    to: "/portfolio",
     linkName: "Portfolio",
   },
   {
     id: "3",
-    to: "/about",
+    to: "/aboutUs",
     linkName: "About Us",
   },
   {
     id: "4",
-    to: "/services",
-    linkName: "Services",
+    to: "/blogs",
+    linkName: "Blogs",
   },
   {
     id: "5",
-    to: "/contact",
+    to: "/contactUs",
     linkName: "Contact Us",
   },
 ];
