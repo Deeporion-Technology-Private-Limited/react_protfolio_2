@@ -5,15 +5,15 @@ import "./Service.css"
 
 export default function Service() {
   return (
-    <div className='flex flex-column w-fit h-fit wrapper-1'>
+    <div className='flex flex-column w-fit h-fit wrapper-2'>
       <PhilosphyHeading heading={ServiceData.heading} subheading={ServiceData.subheading}/>
       <div className="service-grid grid-wrapper">
         {GridInfo.map((data) => (
           <div key={data.id} className="service-element relative">
             <img className="" src={data.imageName} alt={data.imageName.replace(" ","_")} />
             <div className="centered-text w-full image-heading z-99">{data.title}</div>
-            <div className="hover-text w-full h-full flex justify-center items-end">
-              <p className="w-full text-translate">{data.info}</p>
+            <div className="detail-text w-full h-full flex justify-center items-end">
+              <p className="w-full detail-translate">{data.info}</p>
             </div>
           </div>
         ))}

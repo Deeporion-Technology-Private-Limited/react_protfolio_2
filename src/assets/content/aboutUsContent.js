@@ -1,8 +1,8 @@
-import HeroImg from "../Images/aboutHero.jpg";
-import service02 from "../Images/service02.jpg"
-import service03 from "../Images/service03.jpg"
-import service04 from "../Images/service04.jpg"
-import service01 from "../Images/service01.jpg"
+import HeroImg from "../Images/AboutUs-heroImg.jpg";
+import service01 from "../Images/SecurityGrid01.jpg"
+import service02 from "../Images/SecurityGrid02.jpg"
+import service03 from "../Images/SecurityGrid03.jpg"
+import service04 from "../Images/SecurityGrid04.jpg"
 
 export const HeroData =
   {
@@ -13,6 +13,11 @@ export const HeroData =
 export const ServiceData = {
   heading: "Services",
   subheading:"Showcasing your talent and amplifying your impact"
+}
+
+export const Review = {
+  heading: "What my Clients say about me",
+  subheading:"Embracing the art of photography, I freeze time to unveil the beauty hidden in every frame."
 }
 
 export const GridInfo = [

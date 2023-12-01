@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Image00 from "../../../assets/Images/carousel_image00.jpg";
-import Image01 from "../../../assets/Images/carousel_image01.jpg";
-import Image02 from "../../../assets/Images/carousel_image02.jpg";
-import Image03 from "../../../assets/Images/carousel_image03.jpg";
-import Image04 from "../../../assets/Images/carousel_image04.jpg";
+import Image00 from "../../../assets/Images/Carousel01.jpg";
+import Image01 from "../../../assets/Images/Carousel02.jpg";
+import Image02 from "../../../assets/Images/Carousel03.jpg";
+import Image03 from "../../../assets/Images/Carousel04.jpg";
+import Image04 from "../../../assets/Images/Carousel05.jpg";
 import "./SectionCarousel.css"
 
 export default function ScetionCarousel() {

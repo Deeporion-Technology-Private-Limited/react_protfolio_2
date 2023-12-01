@@ -33,6 +33,12 @@
   background: #fff;
 }
 
+.tab-container img{
+  width:170px;
+  height:121px;
+  border-radius:12px;
+}
+
 .img-container {
   width: 56.688rem;
   text-wrap: nowrap;

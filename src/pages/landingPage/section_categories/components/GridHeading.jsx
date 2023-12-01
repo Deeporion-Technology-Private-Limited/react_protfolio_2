@@ -1,4 +1,5 @@
 import React from 'react'
+import "../Categories.css"
 
 export default function GridHeading({heading,subheading}) {
   return ( 
