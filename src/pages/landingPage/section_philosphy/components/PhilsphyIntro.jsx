@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import IntroImage from "../../../../assets/Images/philosphy_image.jpg";
+import IntroImage from "../../../../assets/Images/TabeaImage.jpg";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import {introData } from "../../../../assets/content/philosphyContent"
 

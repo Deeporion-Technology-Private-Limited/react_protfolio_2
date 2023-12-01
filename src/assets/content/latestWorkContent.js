@@ -1,9 +1,9 @@
-import LatestWork01 from "../Images/latest-work01.jpg";
-import LatestWork02 from "../Images/latest-work02.jpg";
-import LatestWork03 from "../Images/latest-work03.jpg";
-import TabImage02 from "../Images/Rectangle 322.jpg";
-import TabImage01 from "../Images/Rectangle 322 (1).jpg";
-import TabImage03 from "../Images/Rectangle 322 (2).jpg";
+import LatestWork01 from "../Images/Latest-Big-01.jpg";
+import LatestWork02 from "../Images/Latest-Big-03.jpg";
+import LatestWork03 from "../Images/Latest-Big-02.jpg";
+import TabImage01 from "../Images/LatestThumb-02.jpg";
+import TabImage02 from "../Images/LatestThumb-01.jpg";
+import TabImage03 from "../Images/LatestThumb-03.jpg";
 
 export const Headings = {
   heading: "Latest Wedding Photography work",

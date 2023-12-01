@@ -1,9 +1,9 @@
-import natureImage from "../Images/image_5.jpg"
-import peopleImage from "../Images/image_4.jpg"
-import manMadeImage from "../Images/image_3.jpg"
-import fashionImage from "../Images/image_2.jpg"
-import abstractImage from "../Images/image_6.jpg"
-import blackWhiteImage from "../Images/image_1.jpg"
+import natureImage from "../Images/GridNature.jpg"
+import peopleImage from "../Images/GridPeople.jpg"
+import manMadeImage from "../Images/GridManamade.jpg"
+import fashionImage from "../Images/GridFashion.jpg"
+import abstractImage from "../Images/GridAbstract.jpg"
+import blackWhiteImage from "../Images/GridBlack&White.jpg"
 
 
 export const Headings = {

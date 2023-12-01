@@ -41,7 +41,7 @@ export default function LatestWork() {
                 key={data.id}
                 className="button-container flex items-center"
               >
-                <div className="w-full h-full">
+                <div className="l= w-full h-full">
                   <img src={data.imageName} alt="" />
                 </div>
                 <div className="w-full h-full">
