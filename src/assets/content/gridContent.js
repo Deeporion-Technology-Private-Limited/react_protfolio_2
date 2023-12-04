@@ -6,7 +6,7 @@ import abstractImage from "../Images/GridAbstract.jpg"
 import blackWhiteImage from "../Images/GridBlack&White.jpg"
 
 
-export const Headings = {
+export const headings = {
   heading: "Featured Work",
   subHeading: "Explore some best categories",
 };

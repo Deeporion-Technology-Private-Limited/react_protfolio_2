@@ -5,7 +5,7 @@ import TabImage01 from "../Images/LatestThumb-02.jpg";
 import TabImage02 from "../Images/LatestThumb-01.jpg";
 import TabImage03 from "../Images/LatestThumb-03.jpg";
 
-export const Headings = {
+export const headings = {
   heading: "Latest Wedding Photography work",
   subheading:
     "Join me on this visual journey, where every frame is a testament to the  beauty that exists in the world and in each of us.",

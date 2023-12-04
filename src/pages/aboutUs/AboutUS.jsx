@@ -10,7 +10,7 @@ import Reviews from './section_review/Reviews'
 export default function AboutUS() {
   return (
     <PageContainer>
-      <HeroImage imgSrc={HeroData.imgSrc} heroText = {HeroData.text}/>
+      <HeroImage imgSrc={HeroData.imgSrc} heroText = {HeroData.heroText}/>
       <SectionPhilosphy/>
       <Service/>
       <Reviews/>

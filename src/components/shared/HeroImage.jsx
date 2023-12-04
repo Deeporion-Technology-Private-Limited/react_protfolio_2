@@ -5,7 +5,7 @@ export const HeroImage = ({imgSrc,heroText,spanText}) => {
   console.log("imgSrc")
   return (
     <div className='hero-image w-full relative'>
-      <div className='w-full h-full'>
+      <div className='w-full  h-full flex flex-shrink-0'>
         <img className='hero-image-dimensions' src={imgSrc} alt={imgSrc} />
       </div>
       <div className='text-center absolute'>

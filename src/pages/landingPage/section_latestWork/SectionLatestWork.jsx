@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./LatestWork.css";
 import PhilosphyHeading from "../section_philosphy/components/PhilosphyHeading";
 import {
-  Headings,
+  headings,
   ContactUs,
   TabArray,
 } from "../../../assets/content/latestWorkContent";
@@ -18,8 +18,8 @@ export default function LatestWork() {
     <div className="flex flex-column">
       <div className="philosphy-container">
         <PhilosphyHeading
-          heading={Headings.heading}
-          subheading={Headings.subheading}
+          heading={headings.heading}
+          subheading={headings.subheading}
         />
         <div className="work-container relative">
           <div className="latest-work">

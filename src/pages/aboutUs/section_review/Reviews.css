@@ -1,0 +1,10 @@
+.review-text {
+  width: 41.813rem;
+  height: 36.375rem;
+}
+
+.review-image-container img {
+  width: 362px;
+  height: 460px;
+  flex-shrink: 0;
+}

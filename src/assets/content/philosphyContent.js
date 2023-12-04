@@ -1,4 +1,4 @@
-export const philosphyHeadings = {
+export const philosphyheadings = {
   heading: "About my Photography Philosophy",
   subHeading:
     "Join me on this visual journey, where every frame is a testament to the  beauty that exists in the world and in each of us.",

@@ -1,4 +1,4 @@
-import HeroImg from "../Images/heroImage_2.jpg";
+import HeroImg from "../Images/Portfolio-Her0Img.jpg";
 
 export const HeroData = 
   {

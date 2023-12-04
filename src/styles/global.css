@@ -73,6 +73,10 @@
   align-self: center;
 }
 
+.flex-shrink-0{
+  flex-shrink: 1;
+}
+
 /* Grid Classes */
 .grid {
   display: grid;

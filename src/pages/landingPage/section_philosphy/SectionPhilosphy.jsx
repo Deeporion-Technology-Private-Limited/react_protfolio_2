@@ -2,7 +2,7 @@ import React from "react";
 import PhilosphyHeading from "./components/PhilosphyHeading";
 import PhilosphySectionContainer from "./PhilosphySectionContainer";
 import PhilosphyIntro from "./components/PhilsphyIntro";
-import { philosphyHeadings } from "../../../assets/content/philosphyContent";
+import { philosphyheadings } from "../../../assets/content/philosphyContent";
 import "./philosphy.css";
 
 export default function SectionPhilosphy() {
@@ -10,8 +10,8 @@ export default function SectionPhilosphy() {
     <PhilosphySectionContainer>
       <div className="flex-column items-center justify-start">
         <PhilosphyHeading
-          heading={philosphyHeadings.heading}
-          subheading={philosphyHeadings.subHeading}
+          heading={philosphyheadings.heading}
+          subheading={philosphyheadings.subHeading}
         />
         <PhilosphyIntro />
       </div>
